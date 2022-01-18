@@ -2,8 +2,7 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Routes,
-    Route,
-    Navigate
+    Route
 } from 'react-router-dom';
 import { Navbar } from '../components/navbar';
 import { PostForm } from '../components/post/postForm';
@@ -23,7 +22,6 @@ export default function Index() {
                     </React.Fragment>
                 )} />
             </Routes>
-            <Navigate to="/" />
         </Router>
     );
 }
