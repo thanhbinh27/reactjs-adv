@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './style.css'
 
 export const PostList = () => {
     const posts = useSelector(state => state.posts);
