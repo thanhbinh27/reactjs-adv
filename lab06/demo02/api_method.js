@@ -16,7 +16,7 @@ app.put('/', (req, res) => {
     res.status(200).end('PUT: update object information');
 });
 
-app.put('/', (req, res) => {
+app.delete('/', (req, res) => {
     res.status(200).end('DELETE: update object');
 });
 
