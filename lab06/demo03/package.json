@@ -1,19 +1,18 @@
 {
-  "name": "demo02",
+  "name": "demo03",
   "version": "1.0.0",
-  "description": "hello express",
+  "description": "NodeJS, ExpressJS",
   "main": "index.js",
   "scripts": {
-    "test": "nodemone index"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "author": "NTBinh",
+  "author": "TNBinh",
   "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
     "express": "^4.17.2"
   }
 }
